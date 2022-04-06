@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="overMij.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="Rowan512.ico">
+
+</head>
+
+<body>
+<nav class="sidebar close">
+    <header>
+        <div class="image-text">
+                <span class="image">
+                    <img src="RowanLogo.jpg" alt="logo">
+                </span>
+
+            <div class="text logo-text">
+                <span class="name">Rowãn</span>
+                <span class="site">Blog</span>
+            </div>
+        </div>
+
+        <i class='bx bx-chevron-right toggle'></i>
+    </header>
+
+    <div class="menu-bar">
+        <div class="menu">
+            
+
+            <ul class="menu-links">
+                <li class="nav-link">
+                    <a href="index.html">
+                        <i class='bx bx-home-alt icon' ></i>
+                        <span class="text nav-text">Home</span>
+                    </a>
+                </li>
+
+
+                <li class="nav-link">
+                    <a href="posts.html">
+                        <i class='bx bx-paper-plane icon'></i>
+                        <span class="text nav-text">Posts</span>
+                    </a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="overMij.html">
+                        <i class='bx bx-info-circle icon' ></i>
+                        <span class="text nav-text">Over mij</span>
+                    </a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="https://www.youtube.com/channel/UCXsOtnFWE5W3caob86DpFIg" target="_blank">
+                        <i class='bx bxl-youtube icon' ></i>
+                        <span class="text nav-text">Youtube</span>
+                    </a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="https://github.com/Rowan22" target="_blank">
+                        <i class='bx bxl-github icon' ></i>
+                        <span class="text nav-text">Github</span>
+                    </a>
+                </li>
+
+
+
+            </ul>
+        </div>
+
+
+
+    </div>
+
+</nav>
+
+<section class="home">
+    <div class="text">Welkom!</div>
+        <div>
+         <p>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sollicitudin sem elit. Vestibulum condimentum condimentum quam, eget convallis enim auctor malesuada. Phasellus porttitor faucibus dolor, a accumsan velit egestas vitae. Donec tincidunt auctor massa nec vulputate. Nullam mi nulla, lacinia non mi euismod, porttitor efficitur risus. Mauris accumsan tempor varius. Nam viverra nisl massa, gravida consectetur lectus lacinia sed. Etiam mattis egestas augue, in vulputate dolor eleifend id. Mauris vulputate, dolor egestas gravida consectetur, ex neque dapibus lacus, sed venenatis enim lectus id mi. Integer neque arcu, venenatis sed pulvinar id, vulputate tempus nunc. Mauris ut pretium orci. Phasellus eget fringilla erat. Maecenas eu sapien in justo pulvinar consequat.
+         </p>
+        </div>
+</section>
+
+<script>
+    const body = document.querySelector('body'),
+        sidebar = body.querySelector('nav'),
+        toggle = body.querySelector(".toggle"),
+        modeSwitch = body.querySelector(".toggle-switch"),
+        modeText = body.querySelector(".mode-text");
+
+    toggle.addEventListener("click" , () =>{
+        sidebar.classList.toggle("close");
+    })
+</script>
+
+</body>
+</html>
